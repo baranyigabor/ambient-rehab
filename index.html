@@ -104,7 +104,7 @@
                 <a href="https://drive.google.com/drive/folders/1EiVm_1wZl7K9ygNam9lSOoFYbQz9f8A6"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fa-regular fa-folder-open"></i>
+                      <i class="fas fa-folder-open"></i>
                   </span>
                   <span>Supplementary</span>
                   </a>
@@ -129,8 +129,13 @@
 
 <section>
   <div class="hero-body has-text-centered">
-    
-  <img src="./static/images/Pipeline.png" alt="pipeline">
+  <style>
+    .resized-image {
+        width: 55%; /* Resizes image to 50% of its original size */
+        height: auto; /* Maintains aspect ratio */
+    }
+  </style>  
+  <img src="./static/images/Pipeline.png" alt="pipeline" class="resized-image">
   <div class="container is-max-desktop has-text-justified">
     (a) Patient with smartphone, (b) 3D patient model reconstruction (<a href="https://arxiv.org/abs/2008.09062">Choutas and et al., 2020</a>),
 (c) 3D NeRF or Gaussian Splat of the home environment (<a href="https://arxiv.org/abs/1904.01201">Savva and et al., 2019</a>) reconstruction with
