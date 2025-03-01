@@ -126,7 +126,5 @@ dataset/
 output*
 
 # DeepRehab files
-*.png
-*.jpg
 *.zip
 *.csv
